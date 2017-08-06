@@ -16,4 +16,4 @@
 
 3. Selecciona el nombre que quieres para el entorno virtual (una vez acabe el script tendrás activo el entorno).
 
-4. Ejecuta python main.py para comprobar que cntk se ha instalado correctamente. Dicho programa nos mostrará la version de cntk.
+4. Ejecuta python main.py para comprobar que cntk se ha instalado correctamente. Dicho programa nos mostrará la version de cntk y las cpu's y gpu's disponibles en nuestra máquina.
