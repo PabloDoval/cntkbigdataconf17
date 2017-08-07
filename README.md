@@ -8,11 +8,11 @@
 
     * Descargar [aquí](https://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh) para Linux.
 
-    * Descargar [aquí](https://repo.continuum.io/archive/Anaconda3-4.1.1-MacOSX-x86_64.pkg) para MacOS.
+    * Actualmente CNTK no tiene soporte para MacOs, habría que montar un Docker.
 
 2. Ejecuta el script dentro de scripts
-    * /environment.bat (si estás en windows)
-    * Si estáis en Linux o Mac ejecutad...
+    * environment.bat (si estás en windows)
+    * . ./environment.sh (si estás en Linux)
 
 3. Selecciona el nombre que quieres para el entorno virtual (una vez acabe el script tendrás activo el entorno).
 
