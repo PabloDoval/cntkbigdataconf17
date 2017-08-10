@@ -19,6 +19,6 @@ dependencies:
 - six=1.10.0=py36_0
 - wheel=0.29.0=py36_0
 - pip:
-  - https://cntk.ai/PythonWheel/CPU-Only/cntk-2.1-cp36-cp36m-win_amd64.whl ; sys_platform == "win32"
-  - https://cntk.ai/PythonWheel/CPU-Only/cntk-2.1-cp36-cp36m-linux_x86_64.whl ; sys_platform == "linux"
+  - https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp36-cp36m-win_amd64.whl ; sys_platform == "win32"
+  - https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp36-cp36m-linux_x86_64.whl ; sys_platform == "linux"
 
