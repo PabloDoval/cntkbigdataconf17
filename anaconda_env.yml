@@ -18,7 +18,7 @@ dependencies:
 - seaborn=0.7.1=py35_0
 - six=1.10.0=py35_0
 - wheel=0.29.0=py35_0
-- tensorflow=0.12.3=py35_0
+- tensorflow
 - pip:
   - https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp35-cp35m-win_amd64.whl ; sys_platform == "win32"
   - https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp35-cp35m-linux_x86_64.whl ; sys_platform == "linux"
