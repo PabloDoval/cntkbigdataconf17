@@ -4,5 +4,5 @@ if %errorlevel% neq 0 (
     echo "Hubo un error creando el entorno virtual" 
     exit /b %ERRORLEVEL%
     ) else (
-        activate cntk36dotnetmalaga
+        activate cntk22dotnetmalaga
     )

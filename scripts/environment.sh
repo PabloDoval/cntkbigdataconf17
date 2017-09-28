@@ -4,5 +4,5 @@ if [ $? -ne 0 ]
 then
     echo 'Hubo un error creando el entorno virtual';
 else
-    source activate cntk36dotnetmalaga
+    source activate cntk22dotnetmalaga
 fi

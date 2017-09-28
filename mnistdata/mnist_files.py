@@ -1,6 +1,7 @@
 import os
 import numpy as np
 
+
 def savetxt(filename, ndarray):
     dir = os.path.dirname(filename)
 
