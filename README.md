@@ -26,4 +26,4 @@ En la carpeta mnisdata, están disponibles las clases que se encargarán de la l
 
 Los ficheros se descargarán en el directorio especificado en el archivo settings.py. Ambos se serializarán en formato CTF. Habrá un fichero para test y otro para entrenamiento.
 
-La lectura de los archivos se podrá realizar la utilizando los deserializadores de CTF disponibles en CNTK.
+La lectura de los archivos se podrá realizar utilizando los deserializadores de CTF disponibles en CNTK.
