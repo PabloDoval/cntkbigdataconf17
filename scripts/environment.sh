@@ -2,7 +2,7 @@
 conda-env create --file ../anaconda_env.yml
 if [ $? -ne 0 ]
 then
-    echo 'Hubo un error creando el entorno virtual';
+    echo '[ERROR]: Something wrong happened during the creation of the environment.';
 else
-    source activate cntk22dotnetmalaga
+    source activate cntk23-bigdataconflithuania
 fi
