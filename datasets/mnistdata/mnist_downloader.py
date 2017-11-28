@@ -3,7 +3,7 @@ import struct
 import numpy as np
 from urllib.request import urlretrieve
 from utils.files_path import join_paths, is_file
-from settings import DATA_FOLDER
+from settings import MNIST_DATA_FOLDER
 from .mnist_files import savetxt
 import os
 
@@ -75,13 +75,13 @@ class MnistDownloader:
 
     def download_and_save_data(self):
 
-        self.train_file = join_paths(DATA_FOLDER, 'train.txt')
+        self.train_file = join_paths(MNIST_DATA_FOLDER, 'train.txt')
         if not is_file(self.train_file):
             train = self.__download_data(train=True)
             print('Writing train text file...')
             savetxt(self.train_file, train)
 
-        self.test_file = join_paths(DATA_FOLDER, 'test.txt')
+        self.test_file = join_paths(MNIST_DATA_FOLDER, 'test.txt')
         if not is_file(self.test_file):
             test = self.__download_data(train=False)
             print('Writing test text file...')

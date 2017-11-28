@@ -100,7 +100,7 @@ ENV/
 
 .vscode
 
-datasets/mnistdata/files/
+datasets/mnistdata/files/*
 datasets/nist_sd4/files/
 datasets/nist_sd4/files/test
 datasets/nist_sd4/files/traing

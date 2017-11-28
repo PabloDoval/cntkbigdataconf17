@@ -12,7 +12,7 @@
 
 2. Go to the .\Scripts folder and run the script that will perform the environment setup:
     * environment.bat (if you are running Windows)
-    * . ./environment.sh (for you, Linux folks)
+    * ./environment.sh (for you, Linux folks)
 
 3. Once the script finishes running, that environment will be active. The name of the environment is *cntk23-bigdataconflithuania*, in case you want to activate it manually.
 
