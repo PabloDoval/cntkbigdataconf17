@@ -11,6 +11,3 @@ if __name__ == '__main__':
     input_dim = 784
     input_dim_model = (1, 28, 28)
     num_output_classes = 10
-
-    mnist_downloader = MnistDownloader(MINST_DOWNLOAD_INFO)
-    mnist_downloader.download_and_save_data()

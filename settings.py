@@ -1,4 +1,4 @@
-DATA_FOLDER = 'mnistdata/files/'
+MNIST_DATA_FOLDER = 'datasets/mnistdata/files/'
 MINST_DOWNLOAD_INFO = {
     'BASE_URL': 'http://yann.lecun.com/exdb/mnist/',
     'TRAIN_DATA': {
@@ -11,5 +11,13 @@ MINST_DOWNLOAD_INFO = {
         'NAME_LABELS': 't10k-labels-idx1-ubyte.gz',
         'SAMPLES': 10000
     }
+}
+NIST_SD4_DATA_FOLDER = 'datasets/nist_sd4/files/'
+NIST_SD4_DOWNLOAD_INFO = {
+    'DATASET_NAME': 'NIST-SD4',
+    'FILE_NAME': 'NISTSpecialDatabase4GrayScaleImagesofFIGS.zip',
+    'BASE_URL': 'https://s3.amazonaws.com/nist-srd/SD4/NISTSpecialDatabase4GrayScaleImagesofFIGS.zip',
+    'TRAIN_SAMPLES': 3500,
+    'TEST_SAMPLES': 500
 }
 TENSOR_LOG_DIR = 'log'
