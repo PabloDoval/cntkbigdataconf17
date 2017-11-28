@@ -1,6 +1,5 @@
 import cntk
-from mnistdata.mnist_downloader import MnistDownloader
-from mnistdata.ctf_reader import init_reader
+from datasets.mnistdata.ctf_reader import init_reader
 from settings import MINST_DOWNLOAD_INFO
 from utils.devices import set_devices
 
