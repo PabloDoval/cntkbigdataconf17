@@ -167,5 +167,5 @@ class NistSD4Downloader:
         self.__downloadDataset()
 
     def process(self):
-        self.__processImages(self.trainFolder, 'train', self.trainSamples)
-        self.__processImages(self.testFolder, 'test', self.testSamples)
+        self.__processImages(self.trainFolder, os.path.join(NIST_SD4_DATA_FOLDER, 'train'), self.trainSamples)
+        self.__processImages(self.testFolder, os.path.join(NIST_SD4_DATA_FOLDER, 'test'), self.testSamples)

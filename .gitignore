@@ -105,5 +105,5 @@ train
 datasets/mnistdata/files/*
 datasets/nist_sd4/files/
 datasets/nist_sd4/files/test
-datasets/nist_sd4/files/traing
+datasets/nist_sd4/files/train
 log/
